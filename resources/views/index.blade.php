@@ -1,7 +1,6 @@
 @extends('layouts.header')
 @section('content')
 
-<body>
     <div class="container-fluid position-relative text-center">
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
             <a class="navbar-brand" href="#">
@@ -121,5 +120,50 @@
         </section>
     </div>
 
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="section-title headline">
+                <span>Hubungi Kami</span>
+                <h2>
+                    Silahkan hubungi kami untuk info lebih lanjut
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="contact_section_2 layout_padding">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 padding_0">
+                    <div class="mail_section">
+                        <div class="email_text">
+                            <div class="form-group">
+                                <input type="text" class="email-bt" placeholder="Nama" name="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="email-bt" placeholder="Alamat" name="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="email-bt" placeholder="Perjalanan" name="Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="massage-bt" placeholder="Pesan" rows="5" id="comment"
+                                    name="Massage"></textarea>
+                            </div>
+                            <div class="send_btn">
+                                <div type="text" class="main_bt"><a href="https://wa.me/6281293056282">Hubungi Kami</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 padding_0">
+                    <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d991.2089732972702!2d106.80349192835868!3d-6.415126999596796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMjQnNTQuNSJTIDEwNsKwNDgnMTQuOSJF!5e0!3m2!1sid!2sid!4v1724928430162!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 @endsection

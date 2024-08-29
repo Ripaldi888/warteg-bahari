@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../img/wartegg_1.jpeg');
+    background-image: url("../img/wartegg_1.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
 
@@ -10,7 +10,7 @@ body {
     position: relative;
 }
 
-nav{
+nav {
     position: sticky;
 }
 
@@ -18,7 +18,7 @@ nav{
     border: 2px solid black;
     margin: 10px;
 }
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link {
     color: black;
 }
 
@@ -27,8 +27,8 @@ nav{
     padding: 0;
 }
 
-.content{
-    padding-top:8rem;
+.content {
+    padding-top: 8rem;
 }
 
 .navbar {
@@ -40,22 +40,17 @@ nav{
     width: 100px;
 }
 
-
-
-.button-buy{
+.button-buy {
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid white;
     font-family: "Bitter", serif;
     font-weight: bolder;
     font-size: 20px;
     color: white;
-
 }
 
-
-
 .btn-warning {
-    background-color: #FFA500;
+    background-color: #ffa500;
     border: none;
     color: #fff;
     cursor: pointer;
@@ -64,10 +59,10 @@ nav{
 }
 
 .btn-warning:hover {
-    background-color: #FF4500;
+    background-color: #ff4500;
 }
 
-.h1-description{
+.h1-description {
     background-color: rgba(255, 0, 0, 0);
     text-align: center;
     font-size: 30px;
@@ -79,28 +74,28 @@ nav{
 }
 
 /* Menu */
-.menu{
+.menu {
     padding-top: 30rem;
     color: #000000;
     padding-bottom: 10rem;
 }
 
-.title-menu{
+.title-menu {
     font-family: "Bitter", serif;
-    font-weight:700;
+    font-weight: 700;
     font-size: 3rem;
-    color: #0A8616;
+    color: #0a8616;
     padding-bottom: 3rem;
 }
 
-.gambar{
-width: 8rem;
-border-radius: 10px;
-overflow: hidden;
-border: 3px solid black;
+.gambar {
+    width: 8rem;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid black;
 }
 
-.gambar img{
+.gambar img {
     width: 8rem;
     height: 6rem;
     object-fit: cover;
@@ -108,18 +103,18 @@ border: 3px solid black;
     /* border: 2px solid black; */
     transition: all 0.5s;
 }
-    
-.gambar img:hover{
+
+.gambar img:hover {
     transform: rotate(5deg);
     scale: 1.2;
 }
 
-.nama-menu{
-   text-align: center;
-   margin-right: 29px;
+.nama-menu {
+    text-align: center;
+    margin-right: 29px;
     font-family: "Bitter", serif;
     font-weight: 600;
-    color: #0A8616;
+    color: #0a8616;
 }
 
 .harga {
@@ -130,12 +125,141 @@ border: 3px solid black;
     color: #034716;
 }
 
-.tombol button{
-    background-color: #35C112;
+.tombol button {
+    background-color: #35c112;
     display: inline-block;
     margin-right: 23px;
-    border-radius:1px;
+    border-radius: 1px;
     border: 1px;
     font-family: "Bitter", serif;
     font-weight: 600;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title span {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0a8616;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0;
+}
+
+.contact_section_2 {
+    padding: 70px 0;
+    background-color: #f8f9fa;
+}
+
+.layout_padding {
+    padding: 40px;
+}
+
+.mail_section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.email_text {
+    text-align: center;
+}
+
+.email-bt {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+}
+
+.massage-bt {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    resize: none;
+}
+
+.send_btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main_bt {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #dc3545;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.main_bt:hover {
+    background-color: #c82333;
+}
+
+.map-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
