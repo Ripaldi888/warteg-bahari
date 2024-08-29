@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/wartegg_1.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+}
+
+nav{
+    position: sticky;
+}
+
+.navbar-nav .nav-item {
+    border: 2px solid black;
+    margin: 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
+.container-fluid {
+    height: 100%;
+    padding: 0;
+}
+
+.content{
+    padding-top:8rem;
+}
+
+.navbar {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 100px;
+}
+
+
+
+.button-buy{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    font-family: "Bitter", serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+
+}
+
+
+
+.btn-warning {
+    background-color: #FFA500;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.btn-warning:hover {
+    background-color: #FF4500;
+}
+
+.h1-description{
+    background-color: rgba(255, 0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bitter", serif;
+    font-weight: 700;
+    width: 18rem;
+    -webkit-text-stroke: 1px #000000;
+    color: white;
+}
+
+/* Menu */
+.menu{
+    padding-top: 30rem;
+    color: #000000;
+    padding-bottom: 10rem;
+}
+
+.title-menu{
+    font-family: "Bitter", serif;
+    font-weight:700;
+    font-size: 3rem;
+    color: #0A8616;
+    padding-bottom: 3rem;
+}
+
+.gambar{
+width: 8rem;
+border-radius: 10px;
+overflow: hidden;
+border: 3px solid black;
+}
+
+.gambar img{
+    width: 8rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    transition: all 0.5s;
+}
+    
+.gambar img:hover{
+    transform: rotate(5deg);
+    scale: 1.2;
+}
+
+.nama-menu{
+   text-align: center;
+   margin-right: 29px;
+    font-family: "Bitter", serif;
+    font-weight: 600;
+    color: #0A8616;
+}
+
+.harga {
+    text-align: center;
+    margin-right: 28px;
+    font-family: "Bitter", serif;
+    font-weight: 600;
+    color: #034716;
+}
+
+.tombol button{
+    background-color: #35C112;
+    display: inline-block;
+    margin-right: 23px;
+    border-radius:1px;
+    border: 1px;
+    font-family: "Bitter", serif;
+    font-weight: 600;
+}
